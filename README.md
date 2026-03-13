@@ -101,10 +101,6 @@ ComfyUI-RemoteCall/
 └── ComfyUI调用逻辑说明.md
 ```
 
-## 发布
-
-- **手动上传 GitHub + 同步 ComfyUI 社区**：详见 [发布指南.md](发布指南.md)
-
 ## License
 
 MIT
