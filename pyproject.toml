@@ -1,0 +1,23 @@
+[project]
+name = "remote-call"
+version = "1.0.0"
+description = "ComfyUI 自定义节点扩展，用于远程调用另一台 ComfyUI 实例执行工作流，支持上传资源、注入参数、轮询结果并拉取产物（图片、视频、音频）"
+license = { file = "LICENSE" }
+requires-python = ">=3.8"
+dependencies = [
+    "requests>=2.28.0",
+    "av>=10.0.0",
+]
+classifiers = [
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Repository = "https://github.com/playboy-dongan/ComfyUI-RemoteCall"
+"Bug Tracker" = "https://github.com/playboy-dongan/ComfyUI-RemoteCall/issues"
+
+[tool.comfy]
+# 请在 https://registry.comfy.org 注册发布者后，将您的 PublisherId 填入下方
+PublisherId = "playboy-dongan"  # TODO: 从 Comfy Registry 获取并填写
+DisplayName = "ComfyUI 远程调用"
+# Icon = "https://raw.githubusercontent.com/playboy-dongan/ComfyUI-RemoteCall/main/icon.png"  # 可选：添加图标后取消注释
